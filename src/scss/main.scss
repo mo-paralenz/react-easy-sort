@@ -1,0 +1,35 @@
+html, body {
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+
+#app {
+    margin: auto;
+    width: 200px;
+
+    .holder {
+        border: 1px solid orange;
+    }
+
+    .list {
+        display: grid;
+        grid-gap: 1em;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .item {
+        background-color: #2d2e5a;
+        color: white;
+
+        .wrapper {
+            margin: 10px;
+        }
+
+        img {
+            object-fit: contain;
+            width: 100%;
+        }
+    }
+}
